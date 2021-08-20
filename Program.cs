@@ -35,9 +35,7 @@ namespace Arrays4
             for (int i = 0; i < lista1.Count; i++)
             {                
                 if (lista1[i] != lista2[i])
-                {                    
                     return false;
-                }
             }
             return true;
         }
