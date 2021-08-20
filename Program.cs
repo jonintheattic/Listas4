@@ -28,23 +28,6 @@ namespace Arrays4
             }
 
             Console.WriteLine(SonIguales(lista1, lista2));
-
-            //int[] array1 = new int[5];
-
-            //for (int i = 0; i < array1.Length; i++)
-            //{
-            //    array1[i] = int.Parse(Console.ReadLine());
-            //}
-
-            //int[] array2 = new int[5];
-
-            //for (int i = 0; i < array2.Length; i++)
-            //{
-            //    array2[i] = int.Parse(Console.ReadLine());
-            //}
-
-            //Console.WriteLine(BoolArrays(array1, array2));
-
         }
 
         public static bool SonIguales(List<int> lista1, List<int> lista2)
